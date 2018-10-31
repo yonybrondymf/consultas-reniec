@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1789983b4f00d706a4d8771e22bdf233",
+    "packages": [
+        {
+            "name": "jossmp/datos-peru",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JossMP/datos-peru.git",
+                "reference": "168600837e071d3e9a9d93bf7879e9187b8d908e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JossMP/datos-peru/zipball/168600837e071d3e9a9d93bf7879e9187b8d908e",
+                "reference": "168600837e071d3e9a9d93bf7879e9187b8d908e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "lib-curl": "*"
+            },
+            "require-dev": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Reniec\\": "src/reniec/",
+                    "MinTra\\": "src/mintra/",
+                    "EsSalud\\": "src/essalud/",
+                    "CURL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Josue Mazco Puma",
+                    "email": "jossmp@gmail.com",
+                    "homepage": "https://geekdev.ml/",
+                    "role": "Developers"
+                }
+            ],
+            "description": "Clase para realizar consultas a reniec, essalud, ministrio del trabajo con el numero de DNI",
+            "homepage": "https://github.com/JossMP/datos-peru",
+            "keywords": [
+                "EsSalud",
+                "Mintra",
+                "consulta",
+                "curl",
+                "peru",
+                "php",
+                "reniec"
+            ],
+            "time": "2018-09-24T12:11:23+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "mikey179/vfsStream",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikey179/vfsStream.git",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2012-08-25T12:49:29+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.2.4"
+    },
+    "platform-dev": []
+}
