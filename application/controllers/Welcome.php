@@ -23,4 +23,10 @@ class Welcome extends CI_Controller {
 
 		echo json_encode($resultado);
 	}
+
+	public function download(){
+		$this->load->helper('download');
+		$file = 'download/consultas-reniec.rar';
+        force_download($file, NULL);
+	}
 }

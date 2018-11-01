@@ -8,14 +8,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/sweetalert/sweetalert.css">
 </head>
-<style>
-	body{
-		padding-top: 50px;
-	}
-</style>
+
 <body>
 
 <div class="container">
+	<div class="row">	
+		<div class="col-md-12 text-center">	
+			<a href="<?php echo base_url();?>welcome/download" class="btn btn-dark mt-3">Descargar Proyecto</a>
+		</div>
+	</div><br>
 	<div class="row">
 		<div class="col-12">
 			<div class="card text-white bg-secondary mb-3">
@@ -34,40 +35,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</form>
 				</div>
 			</div>
-			<div class="card" id="info-persona" style="display:none;">
+			<div class="card mb-3" id="info-persona">
 				<h5 class="card-header text-center">Información de la Persona</h5>
 				<div class="card-body">
 				    <div class="form-group row">
 					    <label for="dni" class="col-sm-2 offset-sm-4 col-form-label">DNI:</label>
 					    <div class="col-sm-6">
-					      <input type="text" readonly class="form-control-plaintext" id="dni" value="email@example.com">
+					      <input type="text" readonly class="form-control-plaintext" id="dni" value="25252525">
 					    </div>
 					    <label for="ape_paterno" class="col-sm-2 offset-sm-4 col-form-label">Apellido Paterno:</label>
 					    <div class="col-sm-6">
-					      <input type="text" readonly class="form-control-plaintext" id="ape_paterno" value="email@example.com">
+					      <input type="text" readonly class="form-control-plaintext" id="ape_paterno" value="Perez" >
 					    </div>
 					    <label for="ape_materno" class="col-sm-2 offset-sm-4 col-form-label">Apellido Materno:</label>
 					    <div class="col-sm-6">
-					      <input type="text" readonly class="form-control-plaintext" id="ape_materno" value="email@example.com">
+					      <input type="text" readonly class="form-control-plaintext" id="ape_materno" value="Quispe">
 					    </div>
 					    <label for="nombres" class="col-sm-2 offset-sm-4 col-form-label">Nombres:</label>
 					    <div class="col-sm-6">
-					      <input type="text" readonly class="form-control-plaintext" id="nombres" value="email@example.com">
+					      <input type="text" readonly class="form-control-plaintext" id="nombres" value="Juan">
 					    </div>
 					    <label for="sexo" class="col-sm-2 offset-sm-4 col-form-label">Sexo:</label>
 					    <div class="col-sm-6">
-					      <input type="text" readonly class="form-control-plaintext" id="sexo" value="email@example.com">
+					      <input type="text" readonly class="form-control-plaintext" id="sexo" value="Masculino">
 					    </div>
 					    <label for="fecnac" class="col-sm-2 offset-sm-4 col-form-label">Fecha de Nacimiento:</label>
 					    <div class="col-sm-6">
-					      <input type="text" readonly class="form-control-plaintext" id="fecnac" value="email@example.com">
+					      <input type="text" readonly class="form-control-plaintext" id="fecnac" value="12/12/1990">
 					    </div>
 					 </div>
 				</div>
 			</div>
 		</div>
-		
 	</div>
+	
 </div>
 <script src="<?php echo base_url();?>assets/jquery/jquery.min.js"></script>
 <script src="<?php echo base_url();?>assets/bootstrap/bootstrap.min.js"></script>
